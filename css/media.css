@@ -1,0 +1,77 @@
+
+  @media (max-width: 640px) {
+    nav .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .fa-moon:before {
+      display: none;
+  }
+  
+    header {
+      height: fit-content;
+    }
+  
+    header .container {
+      margin-top: 140px;
+    }
+  
+    header .header-content {
+      width: 100%;
+    }
+  
+    header .header-img {
+      width: 40%;
+      width: 100%;
+    }
+  
+    header .header-img img {
+      margin-bottom: 20px;
+    }
+  
+    .chefs .chefs-cards {
+      display: block;
+  
+    }
+  
+    .chefs .chefs-cards .card {
+      width: 100%;
+      margin: 20px;
+    }
+  
+    .gallery {
+      height: 470vh;
+    }
+  
+    .gallery .gallery-photos {
+      flex-direction: row;
+    }
+  
+    .gallery .gallery-photos picture {
+      width: 100%;
+    }
+  
+    .contact .details {
+      display: block;
+    }
+  
+    .contact .details>div {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+  
+    footer .container {
+      display: block;
+    }
+  
+    footer .container :is(.about, .contact-details) {
+      width: 100%;
+    }
+  
+    footer .container :is(.subscription) {
+      width: 100%;
+    }
+  }
